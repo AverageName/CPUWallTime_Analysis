@@ -28,7 +28,7 @@ def save_plot(data, path, name, label, x_scale=1):
     plt.savefig(filename)
     os.replace(os.path.join('.', filename), os.path.join(path, filename))
 
-#Parser for script.    
+# Parser for script.    
 parser = argparse.ArgumentParser(description="Script for CPUWallTime Graphs")
 parser.add_argument("--csv_file", dest="csv_file", type=str, help="name of the csv_file")
 parser.add_argument("--root_dir", dest="root_dir", type=str, help="path to the root diretory")
