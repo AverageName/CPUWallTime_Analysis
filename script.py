@@ -21,7 +21,6 @@ def filter_data(data, params):
     	    data = data.loc[(data[key] >= params[key][0]) & (data[key] <= params[key][1])]
         elif type(params[key][0]) == str:
             data = data.loc[(data[key].isin(params[key]))]
-            print(data)
     return data
 
 def get_value_by_key(data, key):
