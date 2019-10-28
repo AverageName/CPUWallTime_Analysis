@@ -1,0 +1,9 @@
+
+root_dir: "."
+csv_file: "hw_stat_2018.csv"
+filters:
+    WallDurationSeconds: [1000, 10000]
+    NumberCPU: [2, 25]
+    Nodes: [1, 10]
+    QueueName: ["long", "short"]
+dest_path: "./graph"
