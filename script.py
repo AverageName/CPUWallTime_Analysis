@@ -28,7 +28,7 @@ def get_value_by_key(data, key):
 
 def save_plot(data, path, name, label, x_scale=1):
     plt.figure()
-    ax = sns.distplot(data * x_scale, hist=False, kde=True, axlabel=label)
+    ax = sns.distplot(data / x_scale, hist=False, kde=True, axlabel=label)
     ax.set_yticklabels([])
     filename = name + ".jpg"
     plt.savefig(filename)
@@ -43,7 +43,13 @@ args = parser.parse_args()
 params = parse_yaml(args.yaml_path)
 data = read_csv(params["root_dir"], params["csv_file"])
 data = filter_data(data, params["filters"])
-save_plot(get_value_by_key(data, "WallDurationSeconds"), params["dest_path"], "wall_duration_plot", "WallDurationSeconds")
-save_plot(get_value_by_key(data, "NumberCPU"), params["dest_path"], "cpu_plot", "NumberCPU")
-save_plot(get_value_by_key(data, "Nodes"), params["dest_path"], "nodes_plot", "Nodes")
+
+
+
+
+#TODO: add output to csv file.
+#TODO: Add which graph to plot in configs
+
+#save_plot(get_value_by_key(data, "WallDurationSeconds"), params["dest_path"], "wall_duration_plot", "WallDurationSeconds", params["time_scale"])
+
 
