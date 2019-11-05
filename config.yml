@@ -6,4 +6,6 @@ filters:
     NumberCPU: [2, 25]
     Nodes: [1, 10]
     QueueName: ["long", "short"]
+plot_name: "Nodes"
 dest_path: "./graph"
+x_scale: 1
