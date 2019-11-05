@@ -6,6 +6,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import argparse
 import yaml
+import sys
 
 
 def parse_yaml(yaml_path):
@@ -65,9 +66,12 @@ params = parse_yaml(args.yaml_path)
 data = read_csv(params["root_dir"], params["csv_file"])
 data = filter_data(data, params["filters"])
 
-# TODO: add output to csv file.
-# TODO: Add which graph to plot in configs
-
 plot_name = params["plot_name"]
-xs_ys = save_plot_get_values(get_value_by_key(data, plot_name), plot_name, params["dest_path"], params["x_scale"])
+
+try:
+    xs_ys = save_plot_get_values(get_value_by_key(data, plot_name), plot_name, params["dest_path"], params["x_scale"])
+except ValueError as e:
+    print('Value Error')
+    sys.exit(0)
+
 save_values(xs_ys[0], xs_ys[1], plot_name, params["tables_path"])
