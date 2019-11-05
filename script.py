@@ -46,9 +46,9 @@ def save_plot_get_values(data, name, path, x_scale):
     return [xs, ys]
 
 
-def save_values(xs, ys, name):
+def save_values(xs, ys, name, table_path):
     filename = name + '_points.csv'
-    csv_file = open(os.path.join('.', filename), 'w')
+    csv_file = open(os.path.join(table_path, filename), 'w')
     wr = csv.writer(csv_file, quoting=csv.QUOTE_MINIMAL, dialect='excel')
     wr.writerow(('#', 'x', 'y'))
     for i in range(len(xs)):
@@ -70,4 +70,4 @@ data = filter_data(data, params["filters"])
 
 plot_name = params["plot_name"]
 xs_ys = save_plot_get_values(get_value_by_key(data, plot_name), plot_name, params["dest_path"], params["x_scale"])
-save_values(xs_ys[0], xs_ys[1], plot_name)
+save_values(xs_ys[0], xs_ys[1], plot_name, params["tables_path"])
