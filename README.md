@@ -9,7 +9,7 @@ Easy script for plotting and saving propability density function of CPU Wall tim
   &nbsp;&nbsp;&nbsp;&nbsp;2.1 **root-dir**: Root directory for your csv-file with data.<br/>
   &nbsp;&nbsp;&nbsp;&nbsp;2.2 **csv-file**: Name of your csv file<br/>
   &nbsp;&nbsp;&nbsp;&nbsp;2.3 **filters**: (you can input any of parameters from csv file) <br/>
-  &nbsp;&nbsp;&nbsp;&nbsp; For a example:<br/>
+  &nbsp;&nbsp;&nbsp;&nbsp; For example:<br/>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.3.1 WallDurationSeconds: [1000, 10000] <br/>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.3.2 NumberCPU: [2, 25] <br/>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.3.3 Nodes: [1, 10] <br/>
