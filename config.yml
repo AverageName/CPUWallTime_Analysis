@@ -7,3 +7,6 @@ filters:
     Nodes: [1, 10]
     QueueName: ["long", "short"]
 dest_path: "./graph"
+time_scale: 60
+#build_plot_name: ...
+#github: bibelwort

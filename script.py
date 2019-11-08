@@ -50,6 +50,6 @@ data = filter_data(data, params["filters"])
 #TODO: add output to csv file.
 #TODO: Add which graph to plot in configs
 
-#save_plot(get_value_by_key(data, "WallDurationSeconds"), params["dest_path"], "wall_duration_plot", "WallDurationSeconds", params["time_scale"])
+save_plot(get_value_by_key(data, "WallDurationSeconds"), params["dest_path"], "wall_duration_plot", "WallDurationSeconds", params["time_scale"])
 
 
