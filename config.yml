@@ -2,11 +2,13 @@
 root_dir: "."
 csv_file: "hw_stat_2018.csv"
 filters:
-    WallDurationSeconds: [1000, 10000]
-    NumberCPU: [2, 25]
-    Nodes: [1, 10]
-    QueueName: ["long", "short"]
+    #WallDurationSeconds: [1000, 1100]
+    NumberCPU: [12, 12]
+    Nodes: [2, 2]
+    QueueName: ["infi"]
+plot_name: "WallDurationSeconds"
 dest_path: "./graph"
-time_scale: 60
-#build_plot_name: ...
-#github: bibelwort
+tables_path: "./tables"
+x_scale: 1
+
+
