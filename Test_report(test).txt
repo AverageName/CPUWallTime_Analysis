@@ -1,8 +1,8 @@
 yaml troubleshooting
 
-■ doesn't work with the non ASCII symbols in the name of .csv file
-■ doesn't work with empty "filters" field in config.yaml file
+■ doesn't work with the non ASCII symbols in the name of .csv file (Using only ASCII files)
+■ doesn't work with empty "filters" field in config.yaml file 
 ■ works with spaces
-■ can't plot any kind of graphics with non integer values (E.g. "QueueName")
-■ hard to read graphics with the big numbers in x axis (E.g. "WallDurationSeconds", exmaple in the graph folder)
-■ doesn't work when filters are too strict (no data that fits in specific given requirements)
+■ can't plot any kind of graphics with non integer values (E.g. "QueueName") (Fixed, returning histogram for it)
+■ hard to read graphics with the big numbers in x axis (E.g. "WallDurationSeconds", exmaple in the graph folder) (We have x_scale for this)
+■ doesn't work when filters are too strict (no data that fits in specific given requirements) (Fixed)
