@@ -17,5 +17,6 @@ Easy script for plotting and saving propability density function of CPU Wall tim
   &nbsp;&nbsp;&nbsp;&nbsp;2.4 **dest_path**: Destination path where to save your graph <br/>
   &nbsp;&nbsp;&nbsp;&nbsp;2.5 **x_scale**: Scale for x-axis <br/>
   &nbsp;&nbsp;&nbsp;&nbsp;2.6 **plot_name**: Name of parameter you want to plot <br/>
-  &nbsp;&nbsp;&nbsp;&nbsp;2.7 **tables_path**: Path where to save csv files with plots <br/>
+  &nbsp;&nbsp;&nbsp;&nbsp;2.7 **plot_type**: "hist" - histogram or "df" - density function <br/>
+  &nbsp;&nbsp;&nbsp;&nbsp;2.8 **tables_path**: Path where to save csv files with plots <br/>
   3. Open your terminal or command line and write <br/>  &nbsp;&nbsp;&nbsp;&nbsp; ```python script.py --yaml_path your_path_to_yaml``` <br/> &nbsp;&nbsp;&nbsp;&nbsp; where your_path_to_yaml is path to your yaml-config file.<br/>
