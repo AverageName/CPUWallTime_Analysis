@@ -13,16 +13,9 @@ fi
 echo 'PyYAML' > requirements.txt
 echo 'argparse' > requirements.txt
 echo 'scipy' > requirements.txt
-echo 'cycler' > requirements.txt
 echo 'matplotlib' > requirements.txt
-echo 'kiwisolver' > requirements.txt
 echo 'numpy' > requirements.txt
-echo 'pyparsing' > requirements.txt
-echo 'python-dateutil' > requirements.txt
-echo 'pytz' > requirements.txt
 echo 'pandas' > requirements.txt
-echo 'setuptools' > requirements.txt
-echo 'six' > requirements.txt
 echo 'sklearn' > requirements.txt
 
 for req in $(cat requirements.txt)
