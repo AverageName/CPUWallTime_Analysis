@@ -13,7 +13,9 @@ Easy script for plotting and saving propability density function of CPU Wall tim
   * PyYAML
   * sklearn
   ### Intalling packages:
-  1. For CentOS and Ubuntu run file ```install_with_pip.sh``` from this repo to install packages from the terminal.
+  1. For CentOS and Ubuntu:<br/>
+  &nbsp;&nbsp;&nbsp;&nbsp; 1.1 run ```chmod +x install_with_pip.sh ```.<br/>
+  &nbsp;&nbsp;&nbsp;&nbsp; 1.2 run ```./install_with_pip.sh``` to install packages from the terminal.<br/>
   2. For Windows install packages from your IDE terminal with: ```pip install package_name```.
   
 
