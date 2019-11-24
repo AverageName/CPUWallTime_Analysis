@@ -2,6 +2,21 @@
 
 Easy script for plotting and saving propability density function of CPU Wall time to concrete folder.
 
+## Requirements
+  ### Environment: 
+  Python3, pip.
+  ### Packages: 
+  * pandas
+  * numpy
+  * matplotlib
+  * argparse
+  * PyYAML
+  * sklearn
+  ### Intalling packages:
+  1. For CentOS and Ubuntu run file ```install_with_pip.sh``` from this repo to install packages from the terminal.
+  2. For Windows install packages from your IDE terminal with: ```pip install package_name```.
+  
+
 ## Documentation
   ### How to run script:<br/>
   1. Git clone the repo.<br/>
