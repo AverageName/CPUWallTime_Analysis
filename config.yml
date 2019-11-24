@@ -2,12 +2,12 @@
 root_dir: "."
 csv_file: "hw_stat_2018.csv"
 filters:
-    #WallDurationSeconds: [1000, 60000]
-    #NumberCPU: [1, 12]
-    #Nodes: [2, 2]
-    #QueueName: ["short", "long"]
-plot_name: "WallDurationSeconds"
-plot_type: int
+#    WallDurationSeconds: [1000, 60000]
+#    NumberCPU: [1, 12]
+#    Nodes: [1, 10]
+    QueueName: ["short", "long"]
+plot_name: "QueueName"
+plot_type: "hist"
 dest_path: "./graph"
 tables_path: "./tables"
 x_scale: 1000
