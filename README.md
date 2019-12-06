@@ -4,10 +4,11 @@ Easy script for plotting and saving propability density function of CPU Wall tim
 
 ## Requirements
   ### Environment: 
-  Python3, pip.
+  Python3.7, pip.
   ### Packages: 
   * pandas
   * numpy
+  * scipy
   * matplotlib
   * argparse
   * PyYAML
