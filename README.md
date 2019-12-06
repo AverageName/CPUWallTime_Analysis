@@ -4,20 +4,20 @@ Easy script for plotting and saving probability density function of CPU Wall tim
 
 ## Requirements
   ### Environment: 
-  Python3.7, pip.
+  Python 3.7, pip.
   ### Packages: 
-  * pandas
-  * numpy
-  * scipy
-  * matplotlib
-  * argparse
-  * PyYAML
-  * sklearn
+  * pandas 0.25.1
+  * numpy 1.16.5
+  * scipy 1.3.1
+  * matplotlib 3.1.1
+  * argparse 
+  * PyYAML 5.1.2
+  * sklearn 0.0
   ### Intalling packages:
   1. For CentOS and Ubuntu:<br/>
   &nbsp;&nbsp;&nbsp;&nbsp; 1.1 run ```chmod +x install_with_pip.sh ```.<br/>
   &nbsp;&nbsp;&nbsp;&nbsp; 1.2 run ```./install_with_pip.sh``` to install packages from the terminal.<br/>
-  2. For Windows install packages from your IDE terminal with: ```pip install package_name```.
+  2. For Windows install packages from your IDE terminal with: ```pip install package_name==version_number```.
   
 
 ## Documentation
