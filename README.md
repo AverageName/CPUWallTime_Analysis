@@ -38,4 +38,7 @@ Easy script for plotting and saving propability density function of CPU Wall tim
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.7.1 "hist" - histogram (only for string values of parameter you want to plot)<br/>
   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;2.7.2 "df" - density function (only for numeric values of parameter you want to plot)<br/>
   &nbsp;&nbsp;&nbsp;&nbsp;2.8 **tables_path**: Path where to save csv files with plots <br/>
+  &nbsp;&nbsp;To add new parameter you need to write string like this in config file: <br/>
+  &nbsp;&nbsp;&nbsp;parameter_name: [min, max] (for int type) <br/>
+  &nbsp;&nbsp;&nbsp;parameter_name: ["long", "short", "infi"] (for str type)
   3. Open your terminal or command line and write <br/>  &nbsp;&nbsp;&nbsp;&nbsp; ```python script.py --yaml_path your_path_to_yaml``` <br/> &nbsp;&nbsp;&nbsp;&nbsp; where your_path_to_yaml is path to your yaml-config file.<br/>
